@@ -83,7 +83,7 @@ function login() {
   for ( var i = 0 ; i < container.length ; i++) {
     if (container[i].email.toLowerCase() == email.toLowerCase() && container[i].password.toLowerCase() == password.toLowerCase()) {
       localStorage.setItem('userNameLogin', container[i].userName)
-      location.replace('ahmedehabwebdev.github.io/Login/home.html')
+      location.replace('home.html')
   } else {
     loginMassage.innerHTML = '<span class="p-2 text-danger">incorrect email or password</span>'
     }
